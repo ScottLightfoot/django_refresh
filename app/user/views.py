@@ -8,4 +8,4 @@ from user.serializers import UserSerializer
 
 class CreateUserView(generics.CreateAPIView):
     '''create a new user'''
-    serailizer_class = UserSerializer
+    serializer_class = UserSerializer
